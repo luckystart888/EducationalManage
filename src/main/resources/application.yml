@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://127.0.0.1:3306/educational?userSSL=false
+#    username: root
+#    password: 1234
+#    url: jdbc:mysql://ap-southeast.connect.psdb.cloud/educationalxz?sslMode=VERIFY_IDENTITY
+#    username: 815aif84tdbr020h9hpg
+#    password: pscale_pw_2vitnpI3GUEdOQY7myCoO3WikFzVBDABrbQy8v6PK2g
+    url: jdbc:mysql://us-east.connect.psdb.cloud/educational?sslMode=VERIFY_IDENTITY
+    username: 7ejxwby2swhkpswluvau
+    password: pscale_pw_RIOexzhRy5JPIMY4RCxsfrwWvZMM7ny7Nd1s64zfxlQ
+server:
+  port: 80
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
